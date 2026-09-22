@@ -7,3 +7,12 @@ rozhid benzuny: 30.89 km/l
 
 C:\Users\User-illya\source\repos\lab02_01\x64\Debug\lab02_01.exe (process 18484) exited with code 0 (0x0).
 Press any key to close this window . . .
+--- vhidni danni ---
+para 1: ocinka = 90, vaga = 0.30
+para 2: ocinka = 85, vaga = 0.25
+para 3: ocinka = 78, vaga = 0.45
+
+seredne vahove ocinku: 83.35
+
+C:\Users\User-illya\source\repos\lab02_02\x64\Debug\lab02_02.exe (process 10840) exited with code 0 (0x0).
+Press any key to close this window . . .
