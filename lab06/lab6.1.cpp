@@ -10,15 +10,15 @@ int main() {
     cout << "=== Measure Conversion Table Generator ===" << endl;
     cout << "Conversion Rule: 1 ounce = 28.353495 g = 142 carats\n" << endl;
 
-    // Interactive input for starting value
+    // Interaktyvne vvedennya pochatkovoho znachennya
     cout << "Enter the starting value (ounces): ";
     cin >> start_value;
 
-    // Interactive input for step
+    // Interaktyvne vvedennya kroku
     cout << "Enter the step value: ";
     cin >> step;
 
-    // Interactive input for number of rows with validation (10 to 15)
+    // Interaktyvne vvedennya kilkosti ryadkiv z perevirkoyu (vid 10 do 15)
     do {
         cout << "Enter the number of rows (between 10 and 15): ";
         cin >> num_rows;
@@ -29,14 +29,14 @@ int main() {
 
     cout << "\n";
 
-    // Table Header Formatting
+    // Formuvannya shapky tablytsi
     cout << setfill('-') << setw(57) << "-" << setfill(' ') << endl;
     cout << "| " << setw(12) << "Ounces (oz)"
         << " | " << setw(18) << "Grams (g)"
         << " | " << setw(16) << "Carats" << " |" << endl;
     cout << setfill('-') << setw(57) << "-" << setfill(' ') << endl;
 
-    // Generating and printing rows
+    // Heneratsiya ta vyvedennya ryadkiv
     for (int i = 0; i < num_rows; ++i) {
         double ounces = start_value + i * step;
         double grams = ounces * 28.353495;
@@ -47,7 +47,7 @@ int main() {
             << " | " << setw(16) << fixed << setprecision(2) << carats << " |" << endl;
     }
 
-    // Table Bottom Border
+    // Nyzhnya mezha tablytsi
     cout << setfill('-') << setw(57) << "-" << setfill(' ') << endl;
 
     return 0;
